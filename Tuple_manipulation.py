@@ -1,0 +1,10 @@
+lst = input("Enter the list of numbers: ").split(sep=',')
+print(lst)
+tup1 = tuple(lst)
+print(tup1)
+
+print(tup1[0])
+print(tup1[-1])
+print(tup1[1:-1])
+print(tup1[::2])
+print(tup1[::-1])
